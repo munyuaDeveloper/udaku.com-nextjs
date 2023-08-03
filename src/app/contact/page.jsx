@@ -4,14 +4,14 @@ import Image from 'next/image'
 
 const Contact = () => {
   return (
-    <div className='h-screen'>
-      <div className={styles.container}>
-        <div className={styles.imageContainer}>
+    <div className='h-[calc(100vh - 11vh)]'>
+      <div className='flex flex-col md:flex-row md:gap-5 mx-5 my-20 md:my-40 md:mx-20'>
+        <div className='hidden md:block flex-1'>
           <Image src='/gossip.jpg' width={600} height={400} alt='about us image' />
         </div>
-        <div className={styles.textContainer}>
+        <div className='flex-1'>
           <h1 className='text-5xl text-purple-500 font-bold text-center my-2'>Get In Touch</h1>
-          <div className={styles.divider} />
+          <div className='border-b-[10px] w-[80px] border-purple-500 mb-10' />
           <div className="w-full mt-6 mr-0 mb-0 ml-0 p-5 relative space-y-8 shadow-md">
             <div className="relative">
               <p className="bg-white pt-0 pr-2 pb-0 pl-2 -mt-3 mr-0 mb-0 ml-2 font-medium text-gray-600

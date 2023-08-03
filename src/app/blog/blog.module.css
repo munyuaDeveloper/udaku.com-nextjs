@@ -1,4 +1,4 @@
-.container{
+/* .container{
     margin: 100px 30px;
 }
 .blog{
@@ -10,7 +10,7 @@
 }
 .desc, .image{
     flex: 1;
-}
-.blog:nth-child(even){
+} */
+/* .blog:nth-child(even){
     flex-direction: row-reverse;
-}
+} */

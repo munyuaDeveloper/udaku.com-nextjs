@@ -23,7 +23,7 @@ const blogPost = async() => {
 
 
   return (
-    <div className='flex w-full my-40 mx-20 gap-24'>
+    <div className='flex flex-col md:flex-row m-10 md:my-40 md:mx-20 gap-5 md:gap-24'>
 
       <div className='desc flex-1'>
         <h1 className='text-3xl text-purple-400 capitalize mb-2'>{post.title}</h1>
